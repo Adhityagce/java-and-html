@@ -18,7 +18,7 @@ import java.util.Scanner;
         while (left < right) {
             if (str.charAt(left++) != str.charAt(right--)) {
                 return false;
-            }
+            }   
         }
         return true;
     }
